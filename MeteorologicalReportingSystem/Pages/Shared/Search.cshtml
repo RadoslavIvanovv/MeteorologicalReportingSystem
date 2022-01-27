@@ -1,0 +1,19 @@
+﻿
+@model WeatherInfoViewModel
+
+    <form method="post">
+        <div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            <p>Enter city to check it's temperature and atmospheric pressure.</p>
+            <div class="form-group">
+                <input asp-for="City" class="form-control" placeholder="Insert City">
+
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+
